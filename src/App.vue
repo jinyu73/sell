@@ -34,7 +34,6 @@ export default {
         if (res.status === 200) {
           let data = res.data
           this.seller = data.seller
-          console.log(this.seller)
         } else {
           alert('请求数据失败')
         }
